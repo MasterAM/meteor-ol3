@@ -1,17 +1,19 @@
 Package.describe({
-  summary: "Wrapper for OpenLayers 3",
-  version: "0.1.0",
+  summary: "An opensource javascript library to load, display and render maps from multiple sources on web pages.",
+  version: "3.3.0",
   name: "alon:ol3",
-  git: "https://github.com/masteram/meteor-ol3"
+  git: "https://github.com/masteram/meteor-ol3.git"
 });
 
 Package.onUse(function(api) {
-  api.versionsFrom('METEOR@0.9.0.1');
-  api.addFiles(['lib/ol.js', 'styles/ol.css'], 'client');
+  api.versionsFrom('METEOR@1.0');
+  api.use("mizzao:build-fetcher@0.2.0");
+  api.addFiles(['ol3.fetch.json'], 'client');
 });
 
 Package.onTest(function(api) {
   api.use('tinytest');
+  api.use("mizzao:build-fetcher@0.2.0");
   api.use('alon:ol3');
   api.addFiles('tests.js');
 });

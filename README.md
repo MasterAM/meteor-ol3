@@ -1,11 +1,13 @@
 meteor-ol3
 ==========
 
-A wrapper around OpenLayers 3 for Meteor.js
+This package adds the files necessary to use OpenLayers 3 in a Meteor.js application.
 
-At the moment it only provides the `ol3` symbol on the client and the necessary stylesheets.
+It fetches (using the `mizzao:build-fetcher` package) the files from _cdnjs.cloudflare.com_, a CDN used by OpenLayers themselves in their examples.
 
-This is based on the OpenLayers [v3.0.0](https://github.com/openlayers/ol3/releases/tag/v3.0.0) release.
+At the moment it simply provides the `ol` symbol on the client and the necessary stylesheets.
+
+The current version is based on OpenLayers [v3.3.0](https://github.com/openlayers/ol3/releases/tag/v3.3.0) release, and now the package version matches the OpenLayers version.
 
 Installation
 ---
@@ -16,4 +18,4 @@ $ meteor add alon:ol3
 
 There are currently no real tests.
 
-If you think of any useful functionality, don't hesitate to open an issue.
+If you think of any useful functionality or have any problems with the package, don't hesitate to open an issue.

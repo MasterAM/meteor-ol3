@@ -7,7 +7,7 @@ It fetches (using the `mizzao:build-fetcher` package) the files from _cdnjs.clou
 
 At the moment it simply provides the `ol` symbol on the client and the necessary stylesheets.
 
-The current version is based on OpenLayers [v3.4.0](https://github.com/openlayers/ol3/releases/tag/v3.4.0) release, and now the package version matches the OpenLayers version.
+The current version is based on OpenLayers [v3.5.0](https://github.com/openlayers/ol3/releases/tag/v3.5.0) release, and now the package version matches the OpenLayers version.
 
 Installation
 ---

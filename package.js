@@ -1,6 +1,6 @@
 Package.describe({
   summary: "An open-source JavaScript library to load, display and render maps from multiple sources on the web",
-  version: "3.4.0",
+  version: "3.5.0",
   name: "alon:ol3-debug",
   git: "https://github.com/masteram/meteor-ol3.git",
   debugOnly: true

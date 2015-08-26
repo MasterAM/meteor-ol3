@@ -1,6 +1,6 @@
 Package.describe({
   summary: "OpenLayers 3: an open-source library to render maps from multiple sources on the web",
-  version: "3.7.0",
+  version: "3.8.0",
   name: "alon:ol3",
   git: "https://github.com/masteram/meteor-ol3.git"
 });

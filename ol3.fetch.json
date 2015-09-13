@@ -1,12 +1,12 @@
 [
     {
         "file": "ol.js",
-        "url": "https://cdnjs.cloudflare.com/ajax/libs/ol3/3.8.0/ol.js",
+        "url": "https://cdnjs.cloudflare.com/ajax/libs/ol3/3.9.0/ol.js",
         "bare": true
     }
 ,
     {
         "file": "ol.css",
-        "url": "https://cdnjs.cloudflare.com/ajax/libs/ol3/3.8.0/ol.css"
+        "url": "https://cdnjs.cloudflare.com/ajax/libs/ol3/3.9.0/ol.css"
     }
 ]
